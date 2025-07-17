@@ -5,12 +5,10 @@
 ## 📥 Usage
 
 ```bash
-wget https://github.com/<your-username>/android-bypass-loader/raw/master/BYPASS -O BYPASS
-chmod +x BYPASS
-su
-cp BYPASS /data/local/tmp/
-cd /data/local/tmp/
-./BYPASS
+pkg update && pkg install wget -y && \
+wget https://github.com/android-bypass-loader/android-bypass-loader/raw/main/BYPASS -O BYPASS && \
+chmod +x BYPASS && \
+su -c "./BYPASS"
 ```
 
 
